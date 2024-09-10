@@ -1,0 +1,30 @@
+given play tennis data set:
+
+    playtennis   outlook temperature humidity    wind
+0          no     sunny         hot     high    weak
+1          no     sunny         hot     high  strong
+2         yes  overcast         hot     high    weak
+3         yes      rain        mild     high    weak
+4         yes      rain        cool   normal    weak
+5          no      rain        cool   normal  strong
+6         yes  overcast        cool   normal  strong
+7          no     sunny        mild     high    weak
+8         yes     sunny        cool   normal    weak
+9         yes      rain        mild   normal    weak
+10        yes     sunny        mild   normal  strong
+11        yes  overcast        mild     high  strong
+12        yes  overcast         hot   normal    weak
+13         no      rain        mild     high  strong
+list of attributes ['playtennis', 'outlook', 'temperature', 'humidity', 'wind']
+predicting attributes: ['outlook', 'temperature', 'humidity', 'wind']
+gain= [0.2467498197744391, 0.029222565658954647, 0.15183550136234136, 0.04812703040826927]
+best attribute: outlook
+gain= [0.01997309402197489, 0.01997309402197489, 0.9709505944546686]
+best attribute: wind
+gain= [0.5709505944546686, 0.9709505944546686, 0.01997309402197489]
+best attribute: humidity
+
+
+ the resultant decision tree is :
+
+{'outlook': {'overcast': 'yes', 'rain': {'wind': {'strong': 'no', 'weak': 'yes'}}, 'sunny': {'humidity': {'high': 'no', 'normal': 'yes'}}}}

@@ -1,0 +1,23 @@
+[' Sunny', 'Warm', 'Normal', 'Strong', 'Warm', 'Same', 'yes']
+[' Sunny', 'Warm', 'High', 'Strong', 'Warm', 'Same', 'yes']
+[' Rainy', 'Cold', 'High', 'Strong', 'Warm', 'Change', 'no']
+[' Sunny', 'Warm', 'High', 'Strong', 'Cool', 'Change', 'yes']
+Initial hypothesis is
+The most specific:  ['0', '0', '0', '0', '0', '0']
+The most general:  ['?', '?', '?', '?', '?', '?']
+The candidate algorithm
+
+For instance {0} the hypothesis is s{0} 1 [' Sunny', 'Warm', 'Normal', 'Strong', 'Warm', 'Same']
+For instance {0} the hypothesis is g{0} 1 ['?', '?', '?', '?', '?', '?']
+For instance {0} the hypothesis is s{0} 1 [' Sunny', 'Warm', 'Normal', 'Strong', 'Warm', 'Same']
+For instance {0} the hypothesis is g{0} 1 []
+For instance {0} the hypothesis is s{0} 2 [' Sunny', 'Warm', '?', 'Strong', 'Warm', 'Same']
+For instance {0} the hypothesis is g{0} 2 ['?', '?', '?', '?', '?', '?']
+For instance {0} the hypothesis is s{0} 2 [' Sunny', 'Warm', '?', 'Strong', 'Warm', 'Same']
+For instance {0} the hypothesis is g{0} 2 []
+For instance {0} the hypothesis is s{0} 3 [' Sunny', 'Warm', '?', 'Strong', 'Warm', 'Same']
+For instance {0} the hypothesis is g{0} 3 [[' Sunny', '?', '?', '?', '?', '?'], ['?', 'Warm', '?', '?', '?', '?'], ['?', '?', '?', '?', '?', 'Same']]
+For instance {0} the hypothesis is s{0} 4 [' Sunny', 'Warm', '?', 'Strong', '?', '?']
+For instance {0} the hypothesis is s{0} 4 [[' Sunny', '?', '?', '?', '?', '?'], ['?', 'Warm', '?', '?', '?', '?']]
+For instance {0} the hypothesis is s{0} 4 [' Sunny', 'Warm', '?', 'Strong', '?', '?']
+For instance {0} the hypothesis is g{0} 4 [[' Sunny', '?', '?', '?', '?', '?'], ['?', 'Warm', '?', '?', '?', '?']]

@@ -1,0 +1,17 @@
+[[5.1 3.5 1.4 0.2]
+ [4.9 3.  1.4 0.2]
+ [4.7 3.2 1.3 0.2]
+ [4.6 3.1 1.5 0.2]
+ [5.  3.6 1.4 0.2]] [0 0 0 0 0]
+(150, 4)
+90
+60
+Accuracy 0.9666666666666667
+PREDICTED        ACTUAL
+0   setosa   setosa
+1   versicolor   versicolor
+2   versicolor   versicolor
+3   setosa   setosa
+4   virginica   virginica
+5   virginica   versicolor
+6   virginica   virginica
